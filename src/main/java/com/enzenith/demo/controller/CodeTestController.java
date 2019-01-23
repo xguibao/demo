@@ -32,7 +32,7 @@ public class CodeTestController {
     public String index() {
         CodeTest codeTest = new CodeTest().setLoginName("xugb").setLocked(1).setCreateDate(new Date()).setNickName("清风徐来");
         codeTestService.insert(codeTest);
-        return "success22211";
+        return "success22211111";
     }
 
     @RequestMapping("/list")
